@@ -13,6 +13,10 @@ class CustomTextField: UITextField {
         case email
         case password
         case username
+        case title
+        case price
+        case stock
+        case description
     }
     
     private let authFieldType : customTextFieldType
@@ -43,6 +47,16 @@ class CustomTextField: UITextField {
             self.placeholder = "Password"
             self.textContentType = .oneTimeCode
             self.isSecureTextEntry = true
+        case .title:
+            self.placeholder = "Ürün Adı"
+        case .price:
+            self.placeholder = "Ürün Fiyatı"
+            self.keyboardType = .numberPad
+        case .stock:
+            self.placeholder = "Stok Adeti"
+            self.keyboardType = .numberPad
+        case .description:
+            self.placeholder = "Açıklama"
         }
     }
     

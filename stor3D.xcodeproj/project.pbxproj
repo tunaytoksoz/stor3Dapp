@@ -31,6 +31,11 @@
 		66B146382937D3DE009B9B5B /* LoginUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B146372937D3DE009B9B5B /* LoginUserRequest.swift */; };
 		66B1463A2938EE49009B9B5B /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B146392938EE49009B9B5B /* Validator.swift */; };
 		66B1463C293F7068009B9B5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1463B293F7068009B9B5B /* User.swift */; };
+		66B1463E29415F57009B9B5B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1463D29415F57009B9B5B /* MainTabBarController.swift */; };
+		66B1464029415FF9009B9B5B /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1463F29415FF9009B9B5B /* BasketController.swift */; };
+		66B1464229416051009B9B5B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464129416051009B9B5B /* ProfileController.swift */; };
+		66B1464529416412009B9B5B /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464429416412009B9B5B /* CategoriesController.swift */; };
+		66B1464829421999009B9B5B /* UploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464729421999009B9B5B /* UploadController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +60,11 @@
 		66B146372937D3DE009B9B5B /* LoginUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUserRequest.swift; sourceTree = "<group>"; };
 		66B146392938EE49009B9B5B /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		66B1463B293F7068009B9B5B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		66B1463D29415F57009B9B5B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		66B1463F29415FF9009B9B5B /* BasketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		66B1464129416051009B9B5B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		66B1464429416412009B9B5B /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		66B1464729421999009B9B5B /* UploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,14 +102,12 @@
 		66B145F62936CE80009B9B5B /* stor3D */ = {
 			isa = PBXGroup;
 			children = (
-				66B146322937C587009B9B5B /* AuthService.swift */,
+				66B14643294162ED009B9B5B /* Managers */,
 				66B146052936CE83009B9B5B /* Info.plist */,
 				66B146342937C781009B9B5B /* Models */,
 				66B146242937BEA1009B9B5B /* Supporting */,
 				66B146142936D785009B9B5B /* Views */,
 				66B146132936D6D7009B9B5B /* Controllers */,
-				66B146222937A28B009B9B5B /* Alert Manager.swift */,
-				66B146392938EE49009B9B5B /* Validator.swift */,
 			);
 			path = stor3D;
 			sourceTree = "<group>";
@@ -107,11 +115,14 @@
 		66B146132936D6D7009B9B5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				66B14646294164F0009B9B5B /* Auth */,
 				66B1460B2936D6A2009B9B5B /* HomeController.swift */,
-				66B1460F2936D6C5009B9B5B /* LoginController.swift */,
-				66B146112936D6D0009B9B5B /* RegisterController.swift */,
-				66B1461D293787FB009B9B5B /* ForgotPasswordController.swift */,
 				66B1461F2937911F009B9B5B /* WebViewerController.swift */,
+				66B1463D29415F57009B9B5B /* MainTabBarController.swift */,
+				66B1463F29415FF9009B9B5B /* BasketController.swift */,
+				66B1464129416051009B9B5B /* ProfileController.swift */,
+				66B1464429416412009B9B5B /* CategoriesController.swift */,
+				66B1464729421999009B9B5B /* UploadController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +157,26 @@
 				66B1463B293F7068009B9B5B /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		66B14643294162ED009B9B5B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				66B146222937A28B009B9B5B /* Alert Manager.swift */,
+				66B146392938EE49009B9B5B /* Validator.swift */,
+				66B146322937C587009B9B5B /* AuthService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		66B14646294164F0009B9B5B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				66B1460F2936D6C5009B9B5B /* LoginController.swift */,
+				66B146112936D6D0009B9B5B /* RegisterController.swift */,
+				66B1461D293787FB009B9B5B /* ForgotPasswordController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +262,9 @@
 			files = (
 				66B1461A2936E4E8009B9B5B /* CustomTextField.swift in Sources */,
 				66B1460C2936D6A2009B9B5B /* HomeController.swift in Sources */,
+				66B1464829421999009B9B5B /* UploadController.swift in Sources */,
+				66B1464229416051009B9B5B /* ProfileController.swift in Sources */,
+				66B1464529416412009B9B5B /* CategoriesController.swift in Sources */,
 				66B146162936D7B6009B9B5B /* AuthHeaderView.swift in Sources */,
 				66B146332937C587009B9B5B /* AuthService.swift in Sources */,
 				66B1463C293F7068009B9B5B /* User.swift in Sources */,
@@ -238,6 +272,7 @@
 				66B146122936D6D0009B9B5B /* RegisterController.swift in Sources */,
 				66B1461E293787FB009B9B5B /* ForgotPasswordController.swift in Sources */,
 				66B1463A2938EE49009B9B5B /* Validator.swift in Sources */,
+				66B1464029415FF9009B9B5B /* BasketController.swift in Sources */,
 				66B1461C2936ED2A009B9B5B /* CustomButton.swift in Sources */,
 				66B146232937A28B009B9B5B /* Alert Manager.swift in Sources */,
 				66B145F82936CE81009B9B5B /* AppDelegate.swift in Sources */,
@@ -245,6 +280,7 @@
 				66B146362937C7C1009B9B5B /* RegisterUserRequeset.swift in Sources */,
 				66B146202937911F009B9B5B /* WebViewerController.swift in Sources */,
 				66B146102936D6C5009B9B5B /* LoginController.swift in Sources */,
+				66B1463E29415F57009B9B5B /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
