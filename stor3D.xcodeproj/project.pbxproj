@@ -36,6 +36,9 @@
 		66B1464229416051009B9B5B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464129416051009B9B5B /* ProfileController.swift */; };
 		66B1464529416412009B9B5B /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464429416412009B9B5B /* CategoriesController.swift */; };
 		66B1464829421999009B9B5B /* UploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464729421999009B9B5B /* UploadController.swift */; };
+		66B1464B294252C5009B9B5B /* DKImagePickerController in Frameworks */ = {isa = PBXBuildFile; productRef = 66B1464A294252C5009B9B5B /* DKImagePickerController */; };
+		66B1464D2942B3E5009B9B5B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */; };
+		66B1464F2942B583009B9B5B /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,8 @@
 		66B1464129416051009B9B5B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		66B1464429416412009B9B5B /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
 		66B1464729421999009B9B5B /* UploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadController.swift; sourceTree = "<group>"; };
+		66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 				66B146292937C05E009B9B5B /* FirebaseAuth in Frameworks */,
 				66B146312937C05E009B9B5B /* FirebaseStorage in Frameworks */,
 				66B1462D2937C05E009B9B5B /* FirebaseFirestore in Frameworks */,
+				66B1464B294252C5009B9B5B /* DKImagePickerController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +139,8 @@
 				66B146152936D7B6009B9B5B /* AuthHeaderView.swift */,
 				66B146192936E4E8009B9B5B /* CustomTextField.swift */,
 				66B1461B2936ED2A009B9B5B /* CustomButton.swift */,
+				66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */,
+				66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 				66B1462C2937C05E009B9B5B /* FirebaseFirestore */,
 				66B1462E2937C05E009B9B5B /* FirebaseMessaging */,
 				66B146302937C05E009B9B5B /* FirebaseStorage */,
+				66B1464A294252C5009B9B5B /* DKImagePickerController */,
 			);
 			productName = stor3D;
 			productReference = 66B145F42936CE80009B9B5B /* stor3D.app */;
@@ -232,6 +241,7 @@
 			mainGroup = 66B145EB2936CE80009B9B5B;
 			packageReferences = (
 				66B146272937C05E009B9B5B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				66B14649294252C5009B9B5B /* XCRemoteSwiftPackageReference "DKImagePickerController" */,
 			);
 			productRefGroup = 66B145F52936CE80009B9B5B /* Products */;
 			projectDirPath = "";
@@ -268,12 +278,14 @@
 				66B146162936D7B6009B9B5B /* AuthHeaderView.swift in Sources */,
 				66B146332937C587009B9B5B /* AuthService.swift in Sources */,
 				66B1463C293F7068009B9B5B /* User.swift in Sources */,
+				66B1464F2942B583009B9B5B /* PhotosCollectionViewCell.swift in Sources */,
 				66B146382937D3DE009B9B5B /* LoginUserRequest.swift in Sources */,
 				66B146122936D6D0009B9B5B /* RegisterController.swift in Sources */,
 				66B1461E293787FB009B9B5B /* ForgotPasswordController.swift in Sources */,
 				66B1463A2938EE49009B9B5B /* Validator.swift in Sources */,
 				66B1464029415FF9009B9B5B /* BasketController.swift in Sources */,
 				66B1461C2936ED2A009B9B5B /* CustomButton.swift in Sources */,
+				66B1464D2942B3E5009B9B5B /* CollectionViewTableViewCell.swift in Sources */,
 				66B146232937A28B009B9B5B /* Alert Manager.swift in Sources */,
 				66B145F82936CE81009B9B5B /* AppDelegate.swift in Sources */,
 				66B145FA2936CE81009B9B5B /* SceneDelegate.swift in Sources */,
@@ -500,6 +512,14 @@
 				kind = branch;
 			};
 		};
+		66B14649294252C5009B9B5B /* XCRemoteSwiftPackageReference "DKImagePickerController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zhangao0086/DKImagePickerController";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -527,6 +547,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66B146272937C05E009B9B5B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		66B1464A294252C5009B9B5B /* DKImagePickerController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66B14649294252C5009B9B5B /* XCRemoteSwiftPackageReference "DKImagePickerController" */;
+			productName = DKImagePickerController;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -76,3 +76,9 @@ extension AlertManager {
         self.showBasicAlert(on: vc, with: "Unknown Error Fetching User",message: nil)
     }
 }
+
+extension AlertManager {
+    public static func showBasicAlert(on vc: UIViewController, title : String, message : String){
+        self.showBasicAlert(on: vc, with: title, message: message)
+    }
+}
