@@ -12,7 +12,7 @@ class PhotosCollectionViewCell: UICollectionViewCell {
     
     private let imageView: UIImageView = {
        let view = UIImageView()
-        view.contentMode = .scaleAspectFill
+        view.contentMode = .scaleAspectFit
         view.layer.cornerRadius = 12
         view.clipsToBounds = true
         
@@ -22,6 +22,7 @@ class PhotosCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(imageView)
+       
         imageView.image = UIImage(systemName: "rays")
     }
     
@@ -37,6 +38,7 @@ class PhotosCollectionViewCell: UICollectionViewCell {
                              width : contentView.frame.size.width,
                              height: contentView.frame.size.height
                             )
+      
     }
     
     public func configure(with image: UIImage){

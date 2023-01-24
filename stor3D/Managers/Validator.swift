@@ -29,6 +29,4 @@ class Validator {
         let passwordPred = NSPredicate(format: "SELF MATCHES %@", passwordRegEx)
         return passwordPred.evaluate(with: password)
     }
-    
-    
 }

@@ -44,9 +44,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                    
                } completion: { [weak self] _ in
                    
-                   let nav = UINavigationController(rootViewController: viewController)
-                   nav.modalPresentationStyle = .fullScreen
-                   self?.window?.rootViewController = nav
+                   self?.window?.rootViewController = viewController
                    
                    UIView.animate(withDuration: 0.25) { [weak self] in
                        self?.window?.layer.opacity = 1

@@ -17,6 +17,7 @@ class CustomTextField: UITextField {
         case price
         case stock
         case description
+        case model
     }
     
     private let authFieldType : customTextFieldType
@@ -57,6 +58,8 @@ class CustomTextField: UITextField {
             self.keyboardType = .numberPad
         case .description:
             self.placeholder = "Açıklama"
+        case .model:
+            self.placeholder = "Model Adresini Ekleyin"
         }
     }
     

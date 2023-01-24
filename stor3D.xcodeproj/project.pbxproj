@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66206663294FA1CE0082A7FA /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66206662294FA1CE0082A7FA /* FirebaseService.swift */; };
+		66206665294FA2900082A7FA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66206664294FA2900082A7FA /* Product.swift */; };
+		66206667295073D70082A7FA /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66206666295073D70082A7FA /* ProductCollectionViewCell.swift */; };
+		6620666A29508BAC0082A7FA /* productGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6620666929508BAC0082A7FA /* productGet.swift */; };
+		6682456F29659FDA0033BF6F /* AdminDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6682456E29659FDA0033BF6F /* AdminDetailController.swift */; };
+		66951671295484E2005268A4 /* categoriess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66951670295484E2005268A4 /* categoriess.swift */; };
+		6695167329548847005268A4 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695167229548847005268A4 /* CategoriesTableViewCell.swift */; };
+		6695167529549B95005268A4 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695167429549B95005268A4 /* ProductController.swift */; };
+		6695167729549BE9005268A4 /* ProductPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6695167629549BE9005268A4 /* ProductPageCollectionViewCell.swift */; };
+		66990607295B2E2F002EDB3F /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990606295B2E2F002EDB3F /* FavoritesController.swift */; };
+		66990609295B3073002EDB3F /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990608295B3073002EDB3F /* FavoriteTableViewCell.swift */; };
+		6699060B295B98AD002EDB3F /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699060A295B98AD002EDB3F /* BasketTableViewCell.swift */; };
+		6699060D295C5972002EDB3F /* basketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699060C295C5972002EDB3F /* basketViewModel.swift */; };
+		6699060F295C67F1002EDB3F /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699060E295C67F1002EDB3F /* order.swift */; };
+		66990613295C9134002EDB3F /* profileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990612295C9134002EDB3F /* profileViewModel.swift */; };
+		66990615295CAA7F002EDB3F /* orderGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990614295CAA7F002EDB3F /* orderGet.swift */; };
+		66990617295CAB82002EDB3F /* OrdersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990616295CAB82002EDB3F /* OrdersController.swift */; };
+		66990619295CB172002EDB3F /* orderDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990618295CB172002EDB3F /* orderDetailsController.swift */; };
+		6699061D295CD13C002EDB3F /* ModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699061C295CD13C002EDB3F /* ModelViewModel.swift */; };
+		6699061F295CD3FB002EDB3F /* QuickLookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699061E295CD3FB002EDB3F /* QuickLookController.swift */; };
+		66990621295D1C98002EDB3F /* AdminProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990620295D1C98002EDB3F /* AdminProductController.swift */; };
+		66990623295D262C002EDB3F /* UpdateUploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990622295D262C002EDB3F /* UpdateUploadController.swift */; };
+		66990625295D32D0002EDB3F /* AdminOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990624295D32D0002EDB3F /* AdminOrderController.swift */; };
+		66990627295D41C0002EDB3F /* AdminProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990626295D41C0002EDB3F /* AdminProfileController.swift */; };
+		6699062A295DD9CE002EDB3F /* PhotoSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66990629295DD9CE002EDB3F /* PhotoSliderView.swift */; };
+		66A4AF412964732F00073609 /* AdminOrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4AF402964732F00073609 /* AdminOrderDetailController.swift */; };
 		66B145F82936CE81009B9B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B145F72936CE81009B9B5B /* AppDelegate.swift */; };
 		66B145FA2936CE81009B9B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B145F92936CE81009B9B5B /* SceneDelegate.swift */; };
 		66B146012936CE83009B9B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B146002936CE83009B9B5B /* Assets.xcassets */; };
@@ -18,7 +44,6 @@
 		66B1461A2936E4E8009B9B5B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B146192936E4E8009B9B5B /* CustomTextField.swift */; };
 		66B1461C2936ED2A009B9B5B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1461B2936ED2A009B9B5B /* CustomButton.swift */; };
 		66B1461E293787FB009B9B5B /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1461D293787FB009B9B5B /* ForgotPasswordController.swift */; };
-		66B146202937911F009B9B5B /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1461F2937911F009B9B5B /* WebViewerController.swift */; };
 		66B146232937A28B009B9B5B /* Alert Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B146222937A28B009B9B5B /* Alert Manager.swift */; };
 		66B146262937BF51009B9B5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66B146252937BF51009B9B5B /* GoogleService-Info.plist */; };
 		66B146292937C05E009B9B5B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 66B146282937C05E009B9B5B /* FirebaseAuth */; };
@@ -39,9 +64,38 @@
 		66B1464B294252C5009B9B5B /* DKImagePickerController in Frameworks */ = {isa = PBXBuildFile; productRef = 66B1464A294252C5009B9B5B /* DKImagePickerController */; };
 		66B1464D2942B3E5009B9B5B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */; };
 		66B1464F2942B583009B9B5B /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */; };
+		66B670822953B9270030D542 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B670812953B9260030D542 /* DetailController.swift */; };
+		D9FED718C351D7C416784D50 /* Pods_stor3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6D372E74680EF4C808BAD /* Pods_stor3D.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36863E02FAD2268771C7AE3B /* Pods-stor3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stor3D.debug.xcconfig"; path = "Target Support Files/Pods-stor3D/Pods-stor3D.debug.xcconfig"; sourceTree = "<group>"; };
+		66206662294FA1CE0082A7FA /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		66206664294FA2900082A7FA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		66206666295073D70082A7FA /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		6620666929508BAC0082A7FA /* productGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productGet.swift; sourceTree = "<group>"; };
+		6682456E29659FDA0033BF6F /* AdminDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDetailController.swift; sourceTree = "<group>"; };
+		66951670295484E2005268A4 /* categoriess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriess.swift; sourceTree = "<group>"; };
+		6695167229548847005268A4 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		6695167429549B95005268A4 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		6695167629549BE9005268A4 /* ProductPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		66990606295B2E2F002EDB3F /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		66990608295B3073002EDB3F /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		6699060A295B98AD002EDB3F /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		6699060C295C5972002EDB3F /* basketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketViewModel.swift; sourceTree = "<group>"; };
+		6699060E295C67F1002EDB3F /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
+		66990612295C9134002EDB3F /* profileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewModel.swift; sourceTree = "<group>"; };
+		66990614295CAA7F002EDB3F /* orderGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderGet.swift; sourceTree = "<group>"; };
+		66990616295CAB82002EDB3F /* OrdersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersController.swift; sourceTree = "<group>"; };
+		66990618295CB172002EDB3F /* orderDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderDetailsController.swift; sourceTree = "<group>"; };
+		6699061C295CD13C002EDB3F /* ModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewModel.swift; sourceTree = "<group>"; };
+		6699061E295CD3FB002EDB3F /* QuickLookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookController.swift; sourceTree = "<group>"; };
+		66990620295D1C98002EDB3F /* AdminProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductController.swift; sourceTree = "<group>"; };
+		66990622295D262C002EDB3F /* UpdateUploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUploadController.swift; sourceTree = "<group>"; };
+		66990624295D32D0002EDB3F /* AdminOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderController.swift; sourceTree = "<group>"; };
+		66990626295D41C0002EDB3F /* AdminProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfileController.swift; sourceTree = "<group>"; };
+		66990629295DD9CE002EDB3F /* PhotoSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSliderView.swift; sourceTree = "<group>"; };
+		66A4AF402964732F00073609 /* AdminOrderDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderDetailController.swift; sourceTree = "<group>"; };
 		66B145F42936CE80009B9B5B /* stor3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stor3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B145F72936CE81009B9B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66B145F92936CE81009B9B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +109,6 @@
 		66B146192936E4E8009B9B5B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		66B1461B2936ED2A009B9B5B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		66B1461D293787FB009B9B5B /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
-		66B1461F2937911F009B9B5B /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
 		66B146222937A28B009B9B5B /* Alert Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Manager.swift"; sourceTree = "<group>"; };
 		66B146252937BF51009B9B5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66B146322937C587009B9B5B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -70,6 +123,9 @@
 		66B1464729421999009B9B5B /* UploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadController.swift; sourceTree = "<group>"; };
 		66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		66B670812953B9260030D542 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		97A6CDAF85572FA614BED63C /* Pods-stor3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stor3D.release.xcconfig"; path = "Target Support Files/Pods-stor3D/Pods-stor3D.release.xcconfig"; sourceTree = "<group>"; };
+		CCE6D372E74680EF4C808BAD /* Pods_stor3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stor3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,17 +139,44 @@
 				66B146312937C05E009B9B5B /* FirebaseStorage in Frameworks */,
 				66B1462D2937C05E009B9B5B /* FirebaseFirestore in Frameworks */,
 				66B1464B294252C5009B9B5B /* DKImagePickerController in Frameworks */,
+				D9FED718C351D7C416784D50 /* Pods_stor3D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6620666829508B910082A7FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6699060C295C5972002EDB3F /* basketViewModel.swift */,
+				66990612295C9134002EDB3F /* profileViewModel.swift */,
+				6699061C295CD13C002EDB3F /* ModelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66990628295D4287002EDB3F /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				66990626295D41C0002EDB3F /* AdminProfileController.swift */,
+				66990624295D32D0002EDB3F /* AdminOrderController.swift */,
+				66990622295D262C002EDB3F /* UpdateUploadController.swift */,
+				66990620295D1C98002EDB3F /* AdminProductController.swift */,
+				66B1464729421999009B9B5B /* UploadController.swift */,
+				66A4AF402964732F00073609 /* AdminOrderDetailController.swift */,
+				6682456E29659FDA0033BF6F /* AdminDetailController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
 		66B145EB2936CE80009B9B5B = {
 			isa = PBXGroup;
 			children = (
 				66B145F62936CE80009B9B5B /* stor3D */,
 				66B145F52936CE80009B9B5B /* Products */,
+				C44B3FF2C59883734916B70C /* Pods */,
+				EDF6820A4C8CC3DEBD5C4709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,12 +191,12 @@
 		66B145F62936CE80009B9B5B /* stor3D */ = {
 			isa = PBXGroup;
 			children = (
+				66B146342937C781009B9B5B /* Models */,
+				66B146142936D785009B9B5B /* Views */,
+				6620666829508B910082A7FA /* ViewModel */,
 				66B14643294162ED009B9B5B /* Managers */,
 				66B146052936CE83009B9B5B /* Info.plist */,
-				66B146342937C781009B9B5B /* Models */,
 				66B146242937BEA1009B9B5B /* Supporting */,
-				66B146142936D785009B9B5B /* Views */,
-				66B146132936D6D7009B9B5B /* Controllers */,
 			);
 			path = stor3D;
 			sourceTree = "<group>";
@@ -121,14 +204,19 @@
 		66B146132936D6D7009B9B5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				66B1463D29415F57009B9B5B /* MainTabBarController.swift */,
+				66990628295D4287002EDB3F /* Admin */,
 				66B14646294164F0009B9B5B /* Auth */,
 				66B1460B2936D6A2009B9B5B /* HomeController.swift */,
-				66B1461F2937911F009B9B5B /* WebViewerController.swift */,
-				66B1463D29415F57009B9B5B /* MainTabBarController.swift */,
 				66B1463F29415FF9009B9B5B /* BasketController.swift */,
 				66B1464129416051009B9B5B /* ProfileController.swift */,
 				66B1464429416412009B9B5B /* CategoriesController.swift */,
-				66B1464729421999009B9B5B /* UploadController.swift */,
+				66B670812953B9260030D542 /* DetailController.swift */,
+				6695167429549B95005268A4 /* ProductController.swift */,
+				66990606295B2E2F002EDB3F /* FavoritesController.swift */,
+				66990616295CAB82002EDB3F /* OrdersController.swift */,
+				66990618295CB172002EDB3F /* orderDetailsController.swift */,
+				6699061E295CD3FB002EDB3F /* QuickLookController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,11 +224,18 @@
 		66B146142936D785009B9B5B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				66B146132936D6D7009B9B5B /* Controllers */,
 				66B146152936D7B6009B9B5B /* AuthHeaderView.swift */,
 				66B146192936E4E8009B9B5B /* CustomTextField.swift */,
 				66B1461B2936ED2A009B9B5B /* CustomButton.swift */,
 				66B1464C2942B3E5009B9B5B /* CollectionViewTableViewCell.swift */,
 				66B1464E2942B583009B9B5B /* PhotosCollectionViewCell.swift */,
+				66206666295073D70082A7FA /* ProductCollectionViewCell.swift */,
+				6695167229548847005268A4 /* CategoriesTableViewCell.swift */,
+				6695167629549BE9005268A4 /* ProductPageCollectionViewCell.swift */,
+				66990608295B3073002EDB3F /* FavoriteTableViewCell.swift */,
+				6699060A295B98AD002EDB3F /* BasketTableViewCell.swift */,
+				66990629295DD9CE002EDB3F /* PhotoSliderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,8 +256,13 @@
 			isa = PBXGroup;
 			children = (
 				66B146352937C7C1009B9B5B /* RegisterUserRequeset.swift */,
+				6620666929508BAC0082A7FA /* productGet.swift */,
+				66951670295484E2005268A4 /* categoriess.swift */,
 				66B146372937D3DE009B9B5B /* LoginUserRequest.swift */,
 				66B1463B293F7068009B9B5B /* User.swift */,
+				66206664294FA2900082A7FA /* Product.swift */,
+				6699060E295C67F1002EDB3F /* order.swift */,
+				66990614295CAA7F002EDB3F /* orderGet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +273,7 @@
 				66B146222937A28B009B9B5B /* Alert Manager.swift */,
 				66B146392938EE49009B9B5B /* Validator.swift */,
 				66B146322937C587009B9B5B /* AuthService.swift */,
+				66206662294FA1CE0082A7FA /* FirebaseService.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -187,6 +288,23 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		C44B3FF2C59883734916B70C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36863E02FAD2268771C7AE3B /* Pods-stor3D.debug.xcconfig */,
+				97A6CDAF85572FA614BED63C /* Pods-stor3D.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDF6820A4C8CC3DEBD5C4709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6D372E74680EF4C808BAD /* Pods_stor3D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66B146082936CE83009B9B5B /* Build configuration list for PBXNativeTarget "stor3D" */;
 			buildPhases = (
+				7FEF56C3326C6DF81BFF418B /* [CP] Check Pods Manifest.lock */,
 				66B145F02936CE80009B9B5B /* Sources */,
 				66B145F12936CE80009B9B5B /* Frameworks */,
 				66B145F22936CE80009B9B5B /* Resources */,
+				2D1D46F3191859BFB89D750A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +362,7 @@
 			packageReferences = (
 				66B146272937C05E009B9B5B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				66B14649294252C5009B9B5B /* XCRemoteSwiftPackageReference "DKImagePickerController" */,
+				66A640542953D91B006FAF2C /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 66B145F52936CE80009B9B5B /* Products */;
 			projectDirPath = "";
@@ -265,34 +386,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D1D46F3191859BFB89D750A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stor3D/Pods-stor3D-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stor3D/Pods-stor3D-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stor3D/Pods-stor3D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FEF56C3326C6DF81BFF418B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stor3D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66B145F02936CE80009B9B5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				66B1461A2936E4E8009B9B5B /* CustomTextField.swift in Sources */,
+				6699060B295B98AD002EDB3F /* BasketTableViewCell.swift in Sources */,
+				66B670822953B9270030D542 /* DetailController.swift in Sources */,
 				66B1460C2936D6A2009B9B5B /* HomeController.swift in Sources */,
+				66990607295B2E2F002EDB3F /* FavoritesController.swift in Sources */,
 				66B1464829421999009B9B5B /* UploadController.swift in Sources */,
 				66B1464229416051009B9B5B /* ProfileController.swift in Sources */,
 				66B1464529416412009B9B5B /* CategoriesController.swift in Sources */,
 				66B146162936D7B6009B9B5B /* AuthHeaderView.swift in Sources */,
+				66206667295073D70082A7FA /* ProductCollectionViewCell.swift in Sources */,
+				66990627295D41C0002EDB3F /* AdminProfileController.swift in Sources */,
+				66990615295CAA7F002EDB3F /* orderGet.swift in Sources */,
 				66B146332937C587009B9B5B /* AuthService.swift in Sources */,
+				66206665294FA2900082A7FA /* Product.swift in Sources */,
 				66B1463C293F7068009B9B5B /* User.swift in Sources */,
+				6695167329548847005268A4 /* CategoriesTableViewCell.swift in Sources */,
 				66B1464F2942B583009B9B5B /* PhotosCollectionViewCell.swift in Sources */,
 				66B146382937D3DE009B9B5B /* LoginUserRequest.swift in Sources */,
+				66990617295CAB82002EDB3F /* OrdersController.swift in Sources */,
+				66990625295D32D0002EDB3F /* AdminOrderController.swift in Sources */,
+				6682456F29659FDA0033BF6F /* AdminDetailController.swift in Sources */,
+				66990623295D262C002EDB3F /* UpdateUploadController.swift in Sources */,
+				66206663294FA1CE0082A7FA /* FirebaseService.swift in Sources */,
 				66B146122936D6D0009B9B5B /* RegisterController.swift in Sources */,
+				6699060F295C67F1002EDB3F /* order.swift in Sources */,
 				66B1461E293787FB009B9B5B /* ForgotPasswordController.swift in Sources */,
 				66B1463A2938EE49009B9B5B /* Validator.swift in Sources */,
+				66990613295C9134002EDB3F /* profileViewModel.swift in Sources */,
+				66990609295B3073002EDB3F /* FavoriteTableViewCell.swift in Sources */,
 				66B1464029415FF9009B9B5B /* BasketController.swift in Sources */,
 				66B1461C2936ED2A009B9B5B /* CustomButton.swift in Sources */,
 				66B1464D2942B3E5009B9B5B /* CollectionViewTableViewCell.swift in Sources */,
 				66B146232937A28B009B9B5B /* Alert Manager.swift in Sources */,
+				6699060D295C5972002EDB3F /* basketViewModel.swift in Sources */,
+				66A4AF412964732F00073609 /* AdminOrderDetailController.swift in Sources */,
+				66990621295D1C98002EDB3F /* AdminProductController.swift in Sources */,
+				66990619295CB172002EDB3F /* orderDetailsController.swift in Sources */,
+				6695167529549B95005268A4 /* ProductController.swift in Sources */,
+				6699062A295DD9CE002EDB3F /* PhotoSliderView.swift in Sources */,
+				6699061D295CD13C002EDB3F /* ModelViewModel.swift in Sources */,
 				66B145F82936CE81009B9B5B /* AppDelegate.swift in Sources */,
 				66B145FA2936CE81009B9B5B /* SceneDelegate.swift in Sources */,
 				66B146362937C7C1009B9B5B /* RegisterUserRequeset.swift in Sources */,
-				66B146202937911F009B9B5B /* WebViewerController.swift in Sources */,
+				6620666A29508BAC0082A7FA /* productGet.swift in Sources */,
+				66951671295484E2005268A4 /* categoriess.swift in Sources */,
+				6699061F295CD3FB002EDB3F /* QuickLookController.swift in Sources */,
 				66B146102936D6C5009B9B5B /* LoginController.swift in Sources */,
 				66B1463E29415F57009B9B5B /* MainTabBarController.swift in Sources */,
+				6695167729549BE9005268A4 /* ProductPageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +615,7 @@
 		};
 		66B146092936CE83009B9B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36863E02FAD2268771C7AE3B /* Pods-stor3D.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,11 +624,14 @@
 				DEVELOPMENT_TEAM = VW8GT67P82;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stor3D/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +647,7 @@
 		};
 		66B1460A2936CE83009B9B5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A6CDAF85572FA614BED63C /* Pods-stor3D.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,11 +656,14 @@
 				DEVELOPMENT_TEAM = VW8GT67P82;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = stor3D/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -504,6 +701,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		66A640542953D91B006FAF2C /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		66B146272937C05E009B9B5B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";

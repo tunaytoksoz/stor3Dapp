@@ -22,9 +22,9 @@ class CustomButton: UIButton {
         self.layer.masksToBounds = true
         
         
-        self.backgroundColor = hasBackGround ? .systemBlue : .clear
+        self.backgroundColor = hasBackGround ? UIColor(red: 0.33, green: 0.53, blue: 0.49, alpha: 1.00) : .clear
         
-        let titleColor : UIColor = hasBackGround ? .white : .systemBlue
+        let titleColor : UIColor = hasBackGround ? .white : UIColor(red: 0.33, green: 0.53, blue: 0.49, alpha: 1.00)
         self.setTitleColor(titleColor, for: .normal)
         
         switch fontSize {

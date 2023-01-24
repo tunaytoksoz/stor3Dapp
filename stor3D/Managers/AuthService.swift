@@ -8,6 +8,7 @@
 import Foundation
 import FirebaseAuth
 import FirebaseFirestore
+import Firebase
 
 
 class AuthService{
@@ -39,7 +40,10 @@ class AuthService{
                 .document(resultUser.uid)
                 .setData([
                     "username" : username,
-                    "email"    : email
+                    "email"    : email,
+                    "order" : [],
+                    "favorite" : [],
+                    "adress" : ""
                 ]) { error in
                     if let error = error {
                         completion(false, error)
@@ -48,10 +52,7 @@ class AuthService{
                     
                     completion(true, nil)
                 }
-            
-            
         }
-        
     }
  
     public func SignIn(userRequest: LoginUserRequest, completion: @escaping (Error?)-> Void){
@@ -83,21 +84,58 @@ class AuthService{
         guard let userUID = Auth.auth().currentUser?.uid else {return}
         let db = Firestore.firestore()
         
-        db.collection("users")
-            .document(userUID)
-            .getDocument { snapshot, error in
-                if let error = error{
-                    completion(nil, error)
-                    return
-                }
-                if let snapshot = snapshot,
-                   let snapshotData = snapshot.data(),
-                   let username = snapshotData["username"] as? String,
-                   let email = snapshotData["email"] as? String {
-                    let user = User(username: username, email: email, userUID: userUID)
-                    completion(user,nil)
-                }
+        db.collection("users").whereField("email", isEqualTo: Auth.auth().currentUser?.email).getDocuments { data, error in
+            guard let data = data, error == nil else {
+                return
             }
+            var userDefault : User?
+            if data.isEmpty == false && data != nil {
+                for document in data.documents{
+                    let documentID = document.documentID
+                    if let username = document.get("username") as? String{
+                        if let email = document.get("email") as? String{
+                            if let order = document.get("order") as? [String]{
+                                if let favorite = document.get("favorite") as? [String] {
+                                    if let adress = document.get("adress") as? String {
+                                        let user = User(username: username, email: email, userUID: documentID, order: order, favorite: favorite, adress: adress)
+                                        userDefault = user
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                completion(userDefault, nil)
+            } else {
+                print("else")
+            }
+        }
         
+    }
+    
+    
+    
+    public func fetchUserFavorite(completion: @escaping ([String]?,String?,Error?) -> Void){
+        guard let userUID = Auth.auth().currentUser?.uid else {return}
+        let db = Firestore.firestore()
+        
+        db.collection("users").whereField("email", isEqualTo: Auth.auth().currentUser?.email).getDocuments { data, error in
+            guard let data = data, error == nil else {
+                return
+            }
+            var favoriteUser : [String] = [String]()
+            var documentId : String = ""
+            if data.isEmpty == false && data != nil {
+                for document in data.documents{
+                    let documentID = document.documentID
+                    if let favorite = document.get("favorite") as? [String] {
+                        favoriteUser = favorite
+                        documentId = documentID
+                    }
+                }
+                completion(favoriteUser,documentId, nil)
+            }
+        }
     }
 }

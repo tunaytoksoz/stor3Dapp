@@ -1,0 +1,6 @@
+framework module Pods_stor3D {
+  umbrella header "Pods-stor3D-umbrella.h"
+
+  export *
+  module * { export * }
+}

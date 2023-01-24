@@ -11,7 +11,7 @@ class AuthHeaderView: UIView {
     
     let imageView: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(systemName: "photo")?.withTintColor(.label, renderingMode: .alwaysOriginal)
+        image.image = UIImage(named: "s3")
         image.contentMode = .scaleAspectFit
         return image
     }()

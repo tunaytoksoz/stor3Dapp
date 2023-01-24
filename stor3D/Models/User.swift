@@ -11,4 +11,7 @@ struct User {
     let username: String
     let email: String
     let userUID: String
+    let order : [String]
+    let favorite : [String]
+    let adress : String
 }
